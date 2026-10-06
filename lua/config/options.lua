@@ -3,3 +3,7 @@
 -- Add any additional options here
 vim.opt.relativenumber = false
 vim.opt.smartindent = true
+
+-- Disable AI completion injection into completion menus (like blink.cmp)
+vim.g.ai_cmp = false
+

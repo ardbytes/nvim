@@ -51,3 +51,7 @@ require("lazy").setup({
     },
   },
 })
+
+require("CopilotChat").setup({
+  model = "gpt-5.6-sol",
+})
